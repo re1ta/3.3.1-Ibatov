@@ -30,9 +30,9 @@ def get_currencies_from_csv(file="vacancies_dif_currencies.csv"):
 def get_dates(first_date, second_date):
     """
     Составляет список дат от первой до последней
-    :param first_date: str
-    :param second_date: str
-    :return: str[]
+    Arg:
+        first_date(str)
+        second_date(str)
     """
     res = []
     for year in range(int(first_date[:4]), int(second_date[:4]) + 1):
