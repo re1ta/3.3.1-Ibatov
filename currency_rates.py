@@ -5,7 +5,7 @@ pd.set_option("display.max_columns", False)
 pd.set_option("expand_frame_repr", False)
 
 
-def get_currencies_from_csv(file="Data\\vacancies_dif_currencies.csv"):
+def get_currencies_from_csv(file="vacancies_dif_currencies.csv"):
     """
     Определяет частые валюты и даты от первой до последней вакансии
     Arg:
